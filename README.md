@@ -9,9 +9,9 @@ En el proyecto donde se quiera utilizar la libreria, ejecute `npm link map-lib` 
 Dentro del proyecto, se debe importar el componente `Map` de la libreria.
 `import { Map } from "map-lib";`
 
-El componente `Map` recibe como propiedades:\\
-jurisdiccionesURL: string; // URL de la API que devuelve las jurisdicciones \\  
-barriosURL: string; // URL de la API que devuelve los barrios \\  
+El componente `Map` recibe como propiedades:
+jurisdiccionesURL: string; // URL de la API que devuelve las jurisdicciones  
+barriosURL: string; // URL de la API que devuelve los barrios  
 campos={{
           jurisdiccion: "COMUNA", // Nombre del campo que contiene la jurisdiccion dentro del topojson
           interseccion: "COMUNAS",// Nombre del campo que contiene la interseccion entre el barrio y la jurisdiccion dentro del topojson
