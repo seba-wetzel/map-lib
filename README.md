@@ -3,13 +3,13 @@ Primer estadio de libreria de visualizacion de mapas, para ser reutilizada y esc
 
 #Instalacion
 Clone el repositorio y ejecute `npm install` para instalar las dependencias.
-Ejecute `npm build` para compilar el proyectom y luego `npm link` para crear un link simbolico a la libreria.
+Ejecute `npm build` para compilar el proyectom y luego `npm link` para crear un link simbolico de la libreria.
 En el proyecto donde se quiera utilizar la libreria, ejecute `npm link map-lib` para crear un link simbolico a la libreria.
 
 Dentro del proyecto, se debe importar el componente `Map` de la libreria.
 `import { Map } from "map-lib";`
 
-El componente `Map` recibe como propiedades:
+El componente `Map` recibe como propiedades:  
 jurisdiccionesURL: string; // URL de la API que devuelve las jurisdicciones  
 barriosURL: string; // URL de la API que devuelve los barrios  
 campos={{
