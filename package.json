@@ -2,18 +2,31 @@
   "name": "map-lib",
   "version": "1.0.0",
   "description": "",
-  "main": "build/index.js",
-  "types": "build/index.d.ts",
+  "main": "dist/cjs/index.js",
+  "module": "dist/esm/index.js",
+  "files": [
+    "dist"
+  ],
+  "types": "dist/index.d.ts",
+  "type": "module",
   "scripts": {
-    "build": "npx tsc -p ."
+    "build": "npx tsc -p .",
+    "rollup": "rollup -c"
   },
   "keywords": [],
   "author": "seba-wetzel",
   "license": "ISC",
   "devDependencies": {
+    "@rollup/plugin-commonjs": "^24.0.0",
+    "@rollup/plugin-node-resolve": "^15.0.1",
+    "@rollup/plugin-typescript": "^11.0.0",
     "@types/react": "^18.0.26",
     "eslint": "^8.31.0",
     "react": "^18.2.0",
+    "rollup": "^3.9.1",
+    "rollup-plugin-dts": "^5.1.0",
+    "rollup-plugin-peer-deps-external": "^2.2.4",
+    "rollup-plugin-postcss": "^4.0.2",
     "typescript": "^4.9.4"
   },
   "peerDependencies": {

@@ -3,6 +3,7 @@
   min-height: 600px;
   display: flex;
   position: relative;
+  background-color: transparent;
 }
 .map {
   transition: all 200ms;
