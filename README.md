@@ -1,10 +1,14 @@
 Primer estadio de libreria de visualizacion de mapas, para ser reutilizada y escalable.
 `Queda por subir a npm`
 
-#Instalacion
+#Instalacion para desarrollo:
 Clone el repositorio y ejecute `npm install` para instalar las dependencias.
 Ejecute `npm build` para compilar el proyectom y luego `npm link` para crear un link simbolico de la libreria.
 En el proyecto donde se quiera utilizar la libreria, ejecute `npm link map-lib` para crear un link simbolico a la libreria.
+Si se soluciono algun error o se agrego una nueva caracteristica, incrementar la version de la libreria en el archivo `package.json` y suba los cambios a github.
+
+#Instalacion para uso:
+npm i --save https://github.com/seba-wetzel/map-lib
 
 Dentro del proyecto, se debe importar el componente `Map` de la libreria.
 `import { Map } from "map-lib";`
