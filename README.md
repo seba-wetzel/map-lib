@@ -8,7 +8,7 @@ En el proyecto donde se quiera utilizar la libreria, ejecute `npm link map-lib` 
 Si se soluciono algun error o se agrego una nueva caracteristica, incrementar la version de la libreria en el archivo `package.json` y suba los cambios a github.
 
 #Instalacion para uso:
-npm i --save https://github.com/seba-wetzel/map-lib
+`npm i --save https://github.com/seba-wetzel/map-lib`
 
 Dentro del proyecto, se debe importar el componente `Map` de la libreria.
 `import { Map } from "map-lib";`
