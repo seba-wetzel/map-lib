@@ -12,6 +12,7 @@ Si se soluciono algun error o se agrego una nueva caracteristica, incrementar la
 `npm i --save https://github.com/seba-wetzel/map-lib`
 
 Dentro del proyecto, se debe importar el componente `Map` de la libreria.
+
 `import { Map } from "map-lib";`
 
 El componente `Map` recibe como propiedades:  
